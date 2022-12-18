@@ -1,0 +1,65 @@
+/* Star means apply css to all tags */
+*{
+    /* to remove extra space near username and password */
+    margin:0px;
+    padding: 0px;
+
+    /* To change the font styles */
+    font-family:sans-serif ;
+}
+
+body{
+    background: url(/007_Login_Video_Project/img/work.jpg);
+    background-size: cover;
+}
+
+.login_form{
+
+    /* All login form text color */
+    color: #fff;
+
+    /* To keep content in center */
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    position: absolute;
+}
+
+.login_form h1{
+    font-size: 40px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login_form p{
+    font-size: 20px;
+    margin: 20px 0px;
+    margin-bottom: 0px;
+
+}
+
+.login_form input{
+    font-size: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    border:0;
+    outline: none;
+}
+
+.login_form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+    border-radius: 5%;
+    border: 0;
+    padding: 1% 0%;
+
+    /* Button width */
+    width: 30%;
+
+
+}
